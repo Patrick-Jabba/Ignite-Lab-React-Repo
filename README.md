@@ -12,4 +12,4 @@
 
 ## AULA 04 - Inscrição via GraphQL ✔️
 
-
+## AULA 05 • Deploy, CodeGen ✔️
