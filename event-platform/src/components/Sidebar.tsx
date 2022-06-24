@@ -13,7 +13,6 @@ const GET_LESSONS_QUERY = gql`
   }
 }
 `
-
 interface GetLessonsQueryResponse {
   lessons: {
     id: string,
@@ -23,7 +22,6 @@ interface GetLessonsQueryResponse {
     lessonType: 'live' | 'class'
   }[]
 }
-
 
 export function Sidebar() {
   const { data } = useQuery<GetLessonsQueryResponse>(GET_LESSONS_QUERY);
