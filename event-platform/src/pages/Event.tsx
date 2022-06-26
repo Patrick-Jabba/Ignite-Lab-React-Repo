@@ -5,16 +5,16 @@ import { Sidebar } from "../components/Sidebar";
 import { Video } from "../components/Video";
 import { useGetUserQuery } from "../graphql/generated";
 
-interface SubscriberProps {
-  name: string,
-}
+// interface SubscriberProps {
+//   name: string,
+// }
 
-export function Event(props: SubscriberProps) {
-  const { data } = useGetUserQuery({
-    variables: {
-      id: props.name,
-    }
-  });
+export function Event() {
+//   const { data } = useGetUserQuery({
+//     variables: {
+//       name: props.name,
+//     }
+//   });
   const { slug } = useParams<{ slug: string }>();
   return (
     <div className="bg-blur bg-cover flex flex-col min-h-screen">
