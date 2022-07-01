@@ -13,3 +13,5 @@
 ## AULA 04 - Inscrição via GraphQL ✔️
 
 ## AULA 05 • Deploy, CodeGen ✔️
+
+Link para testar: https://ignite-lab-react-repo.vercel.app/
